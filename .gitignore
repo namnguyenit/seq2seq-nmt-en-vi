@@ -1,0 +1,13 @@
+# Exclude massive 9GB raw dataset
+MachineTranslation_en_vi/datasetTMD.tsv
+*.tsv.gz
+*.tar.gz
+*.zip
+
+# Python & Jupyter cache
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.venv/
+venv/
